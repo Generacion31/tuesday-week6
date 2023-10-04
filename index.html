@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventos</title>
+  <link rel="shortcut icon" href="https://www.html6.es/curso/img/JS.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Eventos</h1>
+    </header>
+
+    <div class="container">
+      <button class="button" onclick="atributo()">Desde Atributo</button>
+      <button class="button button--id" id="propiedad">Desde propiedad ID</button>
+      <button class="button button--method" id="btn">Desde propiedad ID Errores</button>
+      <button class="button button--method" id="btn2">Desde Método</button>
+    </div>
+    <br></br>
+
+    <h2> Propagación & Captura </h2>
+
+    <!-- Propagación & Captura -->
+    <div class="text-container">
+      <form class="text-container__form" id="form">FORM
+        <div class="text-container__div" id="div">DIV
+          <p class="text-container__p" id="p">P</p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
